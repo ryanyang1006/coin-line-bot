@@ -1,0 +1,194 @@
+{
+  "type": "carousel",
+  "contents": [
+    {
+      "type": "bubble",
+      "size": "giga",
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "md",
+        "contents": [
+          {
+            "type": "text",
+            "text": "📦 送評紀錄",
+            "weight": "bold",
+            "size": "xl"
+          },
+          {
+            "type": "separator"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "cornerRadius": "12px",
+            "paddingAll": "12px",
+            "backgroundColor": "#F7F7F7",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "A151511",
+                "weight": "bold",
+                "size": "lg"
+              },
+              {
+                "type": "box",
+                "layout": "baseline",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "送評日期",
+                    "size": "sm",
+                    "color": "#888888",
+                    "flex": 3
+                  },
+                  {
+                    "type": "text",
+                    "text": "2025/01/01",
+                    "size": "sm",
+                    "flex": 5
+                  }
+                ]
+              },
+              {
+                "type": "box",
+                "layout": "baseline",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "委託人",
+                    "size": "sm",
+                    "color": "#888888",
+                    "flex": 3
+                  },
+                  {
+                    "type": "text",
+                    "text": "楊大同",
+                    "size": "sm",
+                    "flex": 5
+                  }
+                ]
+              },
+              {
+                "type": "box",
+                "layout": "baseline",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "送評公司",
+                    "size": "sm",
+                    "color": "#888888",
+                    "flex": 3
+                  },
+                  {
+                    "type": "text",
+                    "text": "PCGS(錢幣)",
+                    "size": "sm",
+                    "flex": 5
+                  }
+                ]
+              },
+              {
+                "type": "box",
+                "layout": "baseline",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "等級",
+                    "size": "sm",
+                    "color": "#888888",
+                    "flex": 3
+                  },
+                  {
+                    "type": "text",
+                    "text": "經濟(單枚1000元)",
+                    "size": "sm",
+                    "wrap": true,
+                    "flex": 5
+                  }
+                ]
+              },
+              {
+                "type": "box",
+                "layout": "horizontal",
+                "spacing": "md",
+                "contents": [
+                  {
+                    "type": "box",
+                    "layout": "vertical",
+                    "backgroundColor": "#FFFFFF",
+                    "cornerRadius": "8px",
+                    "paddingAll": "8px",
+                    "contents": [
+                      {
+                        "type": "text",
+                        "text": "數量",
+                        "size": "xs",
+                        "color": "#888888"
+                      },
+                      {
+                        "type": "text",
+                        "text": "1",
+                        "weight": "bold",
+                        "size": "lg"
+                      }
+                    ],
+                    "flex": 1
+                  },
+                  {
+                    "type": "box",
+                    "layout": "vertical",
+                    "backgroundColor": "#FFFFFF",
+                    "cornerRadius": "8px",
+                    "paddingAll": "8px",
+                    "contents": [
+                      {
+                        "type": "text",
+                        "text": "費用",
+                        "size": "xs",
+                        "color": "#888888"
+                      },
+                      {
+                        "type": "text",
+                        "text": "$100",
+                        "weight": "bold",
+                        "size": "lg"
+                      }
+                    ],
+                    "flex": 1
+                  }
+                ]
+              },
+              {
+                "type": "box",
+                "layout": "baseline",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "收款狀態",
+                    "size": "sm",
+                    "color": "#888888",
+                    "flex": 3
+                  },
+                  {
+                    "type": "text",
+                    "text": "未取回",
+                    "size": "sm",
+                    "weight": "bold",
+                    "color": "#D32F2F",
+                    "flex": 5
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "action":{
+        "type":"message",
+        "text":"送評單號:A151511"
+      }
+    }
+  ]
+}
