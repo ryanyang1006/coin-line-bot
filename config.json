@@ -1,0 +1,20 @@
+{
+  "workbook_path": "C:\\Users\\cc\\Documents\\Codex\\2026-06-05\\line-ex-t-sp-2500-today\\outputs\\line_excel_bot_framework\\銀價計算.xlsx",
+  "quote_sheet": "報價單",
+  "quote_cell": "B3",
+  "history_sheet": "歷史報價",
+  "history_header_row": 5,
+  "history_date_column": "A",
+  "history_price_column": "C",
+  "history_formula_columns": [
+    "D",
+    "E"
+  ],
+  "weekday_column": "B",
+  "screenshot_sheet": "對外報價單2",
+  "screenshot_range": "L1:U45",
+  "output_dir": "outputs/generated_quotes",
+  "save_workbook": true,
+  "visible_excel": true,
+  "screenshot_wait_seconds": 1.5
+}
