@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import re
 from dataclasses import dataclass
 from pathlib import Path
@@ -10,7 +11,7 @@ from typing import Any
 from openpyxl import load_workbook
 
 
-DEFAULT_WORKBOOK_PATH = Path(__file__).with_name("網頁資料_設計版.xlsx")
+DEFAULT_WORKBOOK_PATH = Path(os.getenv("WEB_DATA_WORKBOOK_PATH", Path(__file__).with_name("網頁資料_設計版.xlsx")))
 
 
 @dataclass(frozen=True)

@@ -3,6 +3,7 @@ from __future__ import annotations
 import argparse
 import copy
 import json
+import os
 import re
 import sys
 from dataclasses import dataclass
@@ -13,9 +14,9 @@ from typing import Any
 from openpyxl import load_workbook
 
 
-DEFAULT_WORKBOOK_PATH = Path(__file__).with_name("網頁資料_設計版.xlsx")
-DEFAULT_OUTPUT_DIR = Path(__file__).with_name("outputs") / "pcgs_history"
-DEFAULT_FLEX_TEMPLATE_PATH = Path(__file__).with_name("flex_text_sample.json")
+DEFAULT_WORKBOOK_PATH = Path(os.getenv("WEB_DATA_WORKBOOK_PATH", Path(__file__).with_name("網頁資料_設計版.xlsx")))
+DEFAULT_OUTPUT_DIR = Path(os.getenv("PCGS_HISTORY_OUTPUT_DIR", Path(__file__).with_name("outputs") / "pcgs_history"))
+DEFAULT_FLEX_TEMPLATE_PATH = Path(os.getenv("PCGS_FLEX_TEMPLATE_PATH", Path(__file__).with_name("flex_text_sample.json")))
 
 
 @dataclass(frozen=True)
